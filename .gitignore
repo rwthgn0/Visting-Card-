@@ -1,0 +1,33 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+secrets.*
+credentials.*
+*credentials*.json
+service-account*.json
+
+# Dependencies and build output
+node_modules/
+dist/
+build/
+.cache/
+
+# Logs
+*.log
+
+# Editor and tool settings
+.vscode/
+.idea/
+.claude/
+*.swp
+
+# OS files
+Thumbs.db
+Desktop.ini
+.DS_Store
